@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:id="@+id/btn_base"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:text="Base Widget"
+    android:layout_centerInParent="true"
+    />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:layout_toLeftOf="@id/btn_base"
+        android:layout_alignTop="@id/btn_base"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:layout_toLeftOf="@id/btn_base"
+        android:text="Button2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btn_base"
+        android:layout_alignBottom="@id/btn_base"
+        android:text="Button3"
+        />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_base"
+        android:layout_alignTop="@id/btn_base"
+        android:text="Button4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_2"
+        android:layout_toRightOf="@+id/btn_base"
+        android:text="Button5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_base"
+        android:layout_alignBottom="@id/btn_base"
+        android:text="Button6"/>
+</RelativeLayout>
